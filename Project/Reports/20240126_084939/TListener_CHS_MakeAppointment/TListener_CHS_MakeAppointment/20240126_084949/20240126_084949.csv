@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TListener_CHS_MakeAppointment,,,,2024-01-26 08:50:02,2024-01-26 08:50:23,20.941s,PASSED
+,,,,,,,
+Test Cases/TC_CHS_MakeAppointment/TC_CHS_MakeAppointement_002,,,,2024-01-26 08:50:05,2024-01-26 08:50:23,18.660s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2024-01-26 08:50:05,2024-01-26 08:50:17,11.950s,PASSED
+"setText(findTestObject(""Object Repository/CURA Healthcare MakeAppointment/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",,,,2024-01-26 08:50:18,2024-01-26 08:50:19,0.416s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/CURA Healthcare MakeAppointment/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",,,,2024-01-26 08:50:19,2024-01-26 08:50:19,0.609s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare MakeAppointment/Page_CURA Healthcare Service/button_Login""))",,,,2024-01-26 08:50:19,2024-01-26 08:50:20,1.116s,PASSED
+"selectOptionByValue(findTestObject(""CURA Healthcare Service Button/Page_CURA Healthcare Service/Facility""), facility, true)",,,,2024-01-26 08:50:20,2024-01-26 08:50:21,0.541s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare MakeAppointment/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f""))",,,,2024-01-26 08:50:21,2024-01-26 08:50:21,0.495s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare MakeAppointment/Page_CURA Healthcare Service/input_Medicaid_programs""))",,,,2024-01-26 08:50:21,2024-01-26 08:50:22,0.380s,PASSED
+"setText(findTestObject(""Object Repository/CURA Healthcare MakeAppointment/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""), date)",,,,2024-01-26 08:50:22,2024-01-26 08:50:22,0.468s,PASSED
+"setText(findTestObject(""Object Repository/CURA Healthcare MakeAppointment/Page_CURA Healthcare Service/textarea_Comment_comment""), ""Hi"")",,,,2024-01-26 08:50:22,2024-01-26 08:50:23,0.408s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare MakeAppointment/Page_CURA Healthcare Service/button_Book Appointment""))",,,,2024-01-26 08:50:23,2024-01-26 08:50:23,0.610s,PASSED
+Start listener action : sampleAfterTestCase,,,,2024-01-26 08:50:23,2024-01-26 08:50:23,0.079s,PASSED

@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CURA Healthcare Login/Page_CURA Healthcare Service/h2_Make Appointment",
+      "brokenLocator": "//section[@id\u003d\u0027appointment\u0027]/div/div/div/h2",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Make Appointment\u0027])[1]/following::h2[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CURA Healthcare Login/Page_CURA Healthcare Service/h2_Make Appointment_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CURA Healthcare Service Button/Page_CURA Healthcare Service/button_Login",
+      "brokenLocator": "//button[@id\u003d\u0027btn-login\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027CURA Healthcare Service\u0027])[3]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CURA Healthcare Service Button/Page_CURA Healthcare Service/button_Login_neighbor.png"
+    }
+  ]
+}
