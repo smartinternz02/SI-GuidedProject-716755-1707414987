@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CHS_Login_001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce8be6e2-b8d2-45d0-8bd9-458cf6317825</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>092ea4ee-633a-41f1-ae76-2e0dbb492109</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1c191c30-a365-417c-b6f8-6ff2bee49e6a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>092ea4ee-633a-41f1-ae76-2e0dbb492109</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1c191c30-a365-417c-b6f8-6ff2bee49e6a</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CHS_MakeAppointment_Checpoint_Excel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>44b32772-eddc-4b3e-b2fe-027bf8f86dec</testCaseGuid>
+</TestCaseEntity>
