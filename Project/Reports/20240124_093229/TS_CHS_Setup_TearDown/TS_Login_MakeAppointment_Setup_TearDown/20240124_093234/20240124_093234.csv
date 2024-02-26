@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Login_MakeAppointment_Setup_TearDown,,,,2024-01-24 09:33:29,2024-01-24 09:33:41,12.196s,PASSED
+,,,,,,,
+Test Cases/TC_CHS_Login/TC_CHS_Login_001,,,,2024-01-24 09:33:29,2024-01-24 09:33:38,8.848s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2024-01-24 09:33:29,2024-01-24 09:33:35,5.673s,PASSED
+"openBrowser("""")",,,,2024-01-24 09:33:35,2024-01-24 09:33:37,1.860s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",,,,2024-01-24 09:33:37,2024-01-24 09:33:37,0.021s,PASSED
+"click(findTestObject(""CURA Healthcare Service Button/Page_CURA Healthcare Service/a_Make Appointment""))",,,,2024-01-24 09:33:37,2024-01-24 09:33:37,0.186s,PASSED
+"setText(findTestObject(""Object Repository/CURA Healthcare Login/Page_CURA Healthcare Service/input_Username_username""), username)",,,,2024-01-24 09:33:37,2024-01-24 09:33:38,0.117s,PASSED
+"setText(findTestObject(""Object Repository/CURA Healthcare Login/Page_CURA Healthcare Service/input_Password_password""), password)",,,,2024-01-24 09:33:38,2024-01-24 09:33:38,0.111s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare Login/Page_CURA Healthcare Service/button_Login""))",,,,2024-01-24 09:33:38,2024-01-24 09:33:38,0.117s,PASSED
+closeBrowser(),,,,2024-01-24 09:33:38,2024-01-24 09:33:38,0.026s,PASSED
+Start listener action : sampleAfterTestCase,,,,2024-01-24 09:33:38,2024-01-24 09:33:38,0.008s,PASSED
+,,,,,,,
+Test Cases/TC_CHS_MakeAppointment/TC_CHS_MakeAppointement_002,,,,2024-01-24 09:33:38,2024-01-24 09:33:41,2.961s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2024-01-24 09:33:38,2024-01-24 09:33:39,1.531s,PASSED
+"setText(findTestObject(""Object Repository/CURA Healthcare MakeAppointment/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",,,,2024-01-24 09:33:40,2024-01-24 09:33:40,0.096s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/CURA Healthcare MakeAppointment/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",,,,2024-01-24 09:33:40,2024-01-24 09:33:40,0.139s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare MakeAppointment/Page_CURA Healthcare Service/button_Login""))",,,,2024-01-24 09:33:40,2024-01-24 09:33:40,0.098s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/CURA Healthcare MakeAppointment/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",,,,2024-01-24 09:33:40,2024-01-24 09:33:40,0.129s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare MakeAppointment/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f""))",,,,2024-01-24 09:33:40,2024-01-24 09:33:40,0.123s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare MakeAppointment/Page_CURA Healthcare Service/input_Medicaid_programs""))",,,,2024-01-24 09:33:40,2024-01-24 09:33:40,0.094s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare MakeAppointment/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""))",,,,2024-01-24 09:33:40,2024-01-24 09:33:41,0.075s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare MakeAppointment/Page_CURA Healthcare Service/td_30""))",,,,2024-01-24 09:33:41,2024-01-24 09:33:41,0.069s,PASSED
+"setText(findTestObject(""Object Repository/CURA Healthcare MakeAppointment/Page_CURA Healthcare Service/textarea_Comment_comment""), ""Hi"")",,,,2024-01-24 09:33:41,2024-01-24 09:33:41,0.080s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare MakeAppointment/Page_CURA Healthcare Service/button_Book Appointment""))",,,,2024-01-24 09:33:41,2024-01-24 09:33:41,0.114s,PASSED
+Start listener action : sampleAfterTestCase,,,,2024-01-24 09:33:41,2024-01-24 09:33:41,0.012s,PASSED

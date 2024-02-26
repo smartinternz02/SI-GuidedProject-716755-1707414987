@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TListener_CHS_MakeAppointment,Windows - Chrome 119.0.0.0,,,2024-01-24 09:51:02,2024-01-24 09:52:36,1m - 33.491s,PASSED
+,,,,,,,
+Test Cases/TC_CHS_MakeAppointment/TC_CHS_MakeAppointement_002,Windows - Chrome 119.0.0.0,,,2024-01-24 09:51:03,2024-01-24 09:52:36,1m - 33.048s,PASSED
+Start listener action : sampleBeforeTestCase,Windows - Chrome 119.0.0.0,,,2024-01-24 09:51:03,2024-01-24 09:51:43,39.897s,PASSED
+"setText(findTestObject(""Object Repository/CURA Healthcare MakeAppointment/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Windows - Chrome 119.0.0.0,,,2024-01-24 09:51:43,2024-01-24 09:51:50,6.591s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/CURA Healthcare MakeAppointment/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Windows - Chrome 119.0.0.0,,,2024-01-24 09:51:50,2024-01-24 09:51:54,4.181s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare MakeAppointment/Page_CURA Healthcare Service/button_Login""))",Windows - Chrome 119.0.0.0,,,2024-01-24 09:51:54,2024-01-24 09:51:57,3.328s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/CURA Healthcare MakeAppointment/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Windows - Chrome 119.0.0.0,,,2024-01-24 09:51:57,2024-01-24 09:52:12,14.309s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare MakeAppointment/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f""))",Windows - Chrome 119.0.0.0,,,2024-01-24 09:52:12,2024-01-24 09:52:15,3.041s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare MakeAppointment/Page_CURA Healthcare Service/input_Medicaid_programs""))",Windows - Chrome 119.0.0.0,,,2024-01-24 09:52:15,2024-01-24 09:52:18,3.289s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare MakeAppointment/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""))",Windows - Chrome 119.0.0.0,,,2024-01-24 09:52:18,2024-01-24 09:52:21,3.361s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare MakeAppointment/Page_CURA Healthcare Service/td_30""))",Windows - Chrome 119.0.0.0,,,2024-01-24 09:52:21,2024-01-24 09:52:24,3.164s,PASSED
+"setText(findTestObject(""Object Repository/CURA Healthcare MakeAppointment/Page_CURA Healthcare Service/textarea_Comment_comment""), ""Hi"")",Windows - Chrome 119.0.0.0,,,2024-01-24 09:52:24,2024-01-24 09:52:32,7.075s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare MakeAppointment/Page_CURA Healthcare Service/button_Book Appointment""))",Windows - Chrome 119.0.0.0,,,2024-01-24 09:52:32,2024-01-24 09:52:35,3.197s,PASSED
+Start listener action : sampleAfterTestCase,Windows - Chrome 119.0.0.0,,,2024-01-24 09:52:35,2024-01-24 09:52:36,1.022s,PASSED
