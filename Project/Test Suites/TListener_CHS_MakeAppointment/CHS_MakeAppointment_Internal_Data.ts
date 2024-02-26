@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>CHS_MakeAppointment_Internal_Data</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>891d1bf0-4251-4232-96f8-a6170750a3eb</testSuiteGuid>
+   <testCaseLink>
+      <guid>239a84e9-353c-4c57-acca-4d1826f8d02f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_CHS_MakeAppointment/TC_CHS_MakeAppointement_002</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>0315dae1-0331-4f95-bbee-2163366a4683</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CHS_Internal_Date_MakeAppointment/MakeAppointment_Internal_Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>0315dae1-0331-4f95-bbee-2163366a4683</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>facility</value>
+         <variableId>56885c04-fa20-4d49-97eb-19baa1c41017</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0315dae1-0331-4f95-bbee-2163366a4683</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>date</value>
+         <variableId>fbbc7cc1-df37-4d6c-846d-7a866a383b52</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>CHS_Login_Excel_TestSuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>967f2cf8-3f3d-4ab3-b7c6-190177727f1e</testSuiteGuid>
+   <testCaseLink>
+      <guid>d7f77a01-c145-4684-8758-e417df1a5e50</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/TC_CHS_Login/TC_CHS_Login_001</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>614cef7e-7ac2-4ae4-8b98-5f0cd78d7afc</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CHS_Excel_TestData_Login/Login_ExcelData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>614cef7e-7ac2-4ae4-8b98-5f0cd78d7afc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>092ea4ee-633a-41f1-ae76-2e0dbb492109</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>614cef7e-7ac2-4ae4-8b98-5f0cd78d7afc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>1c191c30-a365-417c-b6f8-6ff2bee49e6a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>159872b7-088e-4783-a825-274190d57754</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_CHS_Login/TC_CHS_Login_001</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c85e422a-0c31-439d-aa81-07c972240094</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CHS_Internal_Data_Login/Login_Internal_Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>c85e422a-0c31-439d-aa81-07c972240094</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>092ea4ee-633a-41f1-ae76-2e0dbb492109</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c85e422a-0c31-439d-aa81-07c972240094</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>1c191c30-a365-417c-b6f8-6ff2bee49e6a</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
