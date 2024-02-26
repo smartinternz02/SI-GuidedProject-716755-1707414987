@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20240125_104225</name>
+   <tag></tag>
+   <displayName>20240125_104225</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20240125_104225/TS_CHS_Setup_TearDown/TS_Login_MakeAppointment_Setup_TearDown/20240125_104229</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/TS_CHS_Setup_TearDown/TSCollection_Login_MakeAppointment_Setup_TearDown</testSuiteCollectionId>
+</ReportCollectionEntity>

@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Logout_Internal_Data,Chrome 120.0.0.0,,,2024-01-25 15:00:45,2024-01-25 15:01:15,30.677s,PASSED
+,,,,,,,
+Test Cases/TC_CHS_Logout/TC_CHS_Logout_004,Chrome 120.0.0.0,,,2024-01-25 15:00:45,2024-01-25 15:01:15,30.112s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,2024-01-25 15:00:46,2024-01-25 15:00:56,10.653s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-25 15:00:58,2024-01-25 15:01:02,3.737s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 120.0.0.0,,,2024-01-25 15:01:02,2024-01-25 15:01:05,3.222s,PASSED
+"click(findTestObject(""CURA Healthcare Service Button/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 120.0.0.0,,,2024-01-25 15:01:05,2024-01-25 15:01:07,1.955s,PASSED
+"setText(findTestObject(""Object Repository/CURA Healthcare Logout/Page_CURA Healthcare Service/input_Username_username""), username)",Chrome 120.0.0.0,,,2024-01-25 15:01:07,2024-01-25 15:01:08,1.349s,PASSED
+"setText(findTestObject(""Object Repository/CURA Healthcare Logout/Page_CURA Healthcare Service/input_Password_password""), password)",Chrome 120.0.0.0,,,2024-01-25 15:01:08,2024-01-25 15:01:09,1.008s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare Logout/Page_CURA Healthcare Service/button_Login""))",Chrome 120.0.0.0,,,2024-01-25 15:01:09,2024-01-25 15:01:11,1.364s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/CURA Healthcare Logout/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Chrome 120.0.0.0,,,2024-01-25 15:01:11,2024-01-25 15:01:12,1.622s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare Logout/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Chrome 120.0.0.0,,,2024-01-25 15:01:12,2024-01-25 15:01:13,0.699s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare Logout/Page_CURA Healthcare Service/a_Logout""))",Chrome 120.0.0.0,,,2024-01-25 15:01:13,2024-01-25 15:01:14,1.353s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-25 15:01:14,2024-01-25 15:01:15,0.980s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,2024-01-25 15:01:15,2024-01-25 15:01:15,0.034s,PASSED

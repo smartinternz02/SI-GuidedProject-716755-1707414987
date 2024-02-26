@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Logout_Internal_Data,,,,2024-01-25 15:10:31,2024-01-25 15:10:44,12.633s,PASSED
+,,,,,,,
+Test Cases/TC_CHS_Logout/TC_CHS_Logout_004,,,,2024-01-25 15:10:32,2024-01-25 15:10:44,12.058s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2024-01-25 15:10:32,2024-01-25 15:10:39,7.143s,PASSED
+"openBrowser("""")",,,,2024-01-25 15:10:39,2024-01-25 15:10:42,2.199s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",,,,2024-01-25 15:10:42,2024-01-25 15:10:42,0.065s,PASSED
+"click(findTestObject(""CURA Healthcare Service Button/Page_CURA Healthcare Service/a_Make Appointment""))",,,,2024-01-25 15:10:42,2024-01-25 15:10:42,0.403s,PASSED
+"setText(findTestObject(""Object Repository/CURA Healthcare Logout/Page_CURA Healthcare Service/input_Username_username""), username)",,,,2024-01-25 15:10:42,2024-01-25 15:10:42,0.317s,PASSED
+"setText(findTestObject(""Object Repository/CURA Healthcare Logout/Page_CURA Healthcare Service/input_Password_password""), password)",,,,2024-01-25 15:10:42,2024-01-25 15:10:43,0.222s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare Logout/Page_CURA Healthcare Service/button_Login""))",,,,2024-01-25 15:10:43,2024-01-25 15:10:43,0.258s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/CURA Healthcare Logout/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",,,,2024-01-25 15:10:43,2024-01-25 15:10:43,0.239s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare Logout/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",,,,2024-01-25 15:10:43,2024-01-25 15:10:43,0.210s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare Logout/Page_CURA Healthcare Service/a_Logout""))",,,,2024-01-25 15:10:43,2024-01-25 15:10:44,0.239s,PASSED
+closeBrowser(),,,,2024-01-25 15:10:44,2024-01-25 15:10:44,0.044s,PASSED
+Start listener action : sampleAfterTestCase,,,,2024-01-25 15:10:44,2024-01-25 15:10:44,0.023s,PASSED

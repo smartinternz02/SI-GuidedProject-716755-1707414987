@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Logout_Internal_Data,Chrome 120.0.0.0,,,2024-01-25 14:59:14,2024-01-25 15:00:21,1m - 7.341s,PASSED
+,,,,,,,
+Test Cases/TC_CHS_Logout/TC_CHS_Logout_004,Chrome 120.0.0.0,,,2024-01-25 14:59:15,2024-01-25 15:00:21,1m - 6.604s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,2024-01-25 14:59:15,2024-01-25 14:59:25,10.102s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-25 14:59:27,2024-01-25 14:59:29,2.689s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 120.0.0.0,,,2024-01-25 14:59:29,2024-01-25 14:59:32,3.251s,PASSED
+"setText(findTestObject(""Object Repository/CURA Healthcare Logout/Page_CURA Healthcare Service/input_Username_username""), username)",Chrome 120.0.0.0,,,2024-01-25 14:59:32,2024-01-25 15:00:18,45.178s,PASSED
+"setText(findTestObject(""Object Repository/CURA Healthcare Logout/Page_CURA Healthcare Service/input_Password_password""), password)",Chrome 120.0.0.0,,,2024-01-25 15:00:18,2024-01-25 15:00:20,1.865s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare Logout/Page_CURA Healthcare Service/button_Login""))",Chrome 120.0.0.0,,,2024-01-25 15:00:20,2024-01-25 15:00:20,0.326s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/CURA Healthcare Logout/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Chrome 120.0.0.0,,,2024-01-25 15:00:20,2024-01-25 15:00:20,0.338s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare Logout/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Chrome 120.0.0.0,,,2024-01-25 15:00:20,2024-01-25 15:00:20,0.243s,PASSED
+"click(findTestObject(""Object Repository/CURA Healthcare Logout/Page_CURA Healthcare Service/a_Logout""))",Chrome 120.0.0.0,,,2024-01-25 15:00:20,2024-01-25 15:00:21,0.250s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-25 15:00:21,2024-01-25 15:00:21,0.631s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,2024-01-25 15:00:21,2024-01-25 15:00:21,0.000s,PASSED
